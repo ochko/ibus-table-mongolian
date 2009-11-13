@@ -1,11 +1,10 @@
 ### Table         Translit Table
 ###
-### Author        Daniil Ivanov <daniil.ivanov@gmail.com>
-### Maintainer    Caius 'kaio' Chance < k at kaio dot me >
+### Author        Ochirkhuyag.L
 ###
 ### Description   Translit Table for IBus-Table. This file is derived from
 ###               SCIM Tables format, which is derived from GTK2 Input Method
-###               Cyrillic (Transliterated).
+###               Cyrillic Mongolain.
 ###
 ### This file must be encoded into UTF-8.
 
@@ -19,7 +18,7 @@ UUID = eede643c-a318-4efa-9328-5ad2f84226fb
 ### A unique number indicates the version of this file.
 ### For example the last modified date of this file.
 ### This number must be less than 2^32.
-SERIAL_NUMBER = 20090603
+SERIAL_NUMBER = 20091112
 
 ICON = maral.svg
 
