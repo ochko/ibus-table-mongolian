@@ -1,0 +1,22 @@
+Mongolian input table for IBus
+==============================
+
+Install
+-------
+
+Run install.sh script. Install script assumes you have permission to /usr/share/ibus-table. If you can't find some keys, look in mongolian.txt. 
+
+Customizing
+-----------
+
+If you want to customize mapping table, 
+ - Open mongolian.txt and do changes. 
+ - Then run compile.sh. 
+ - If compiling succeeds, run install.sh
+ - Restart idus-daemon. 
+Or you could just run deploy.sh to compile and install.
+
+Дараа нь ингээд монголоор бичих болно. 
+
+Copyleft (c) 2009 Ochirkhuyag.L http://ochko.blogspot.com
+

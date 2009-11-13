@@ -1,0 +1,226 @@
+### Table         Translit Table
+###
+### Author        Daniil Ivanov <daniil.ivanov@gmail.com>
+### Maintainer    Caius 'kaio' Chance < k at kaio dot me >
+###
+### Description   Translit Table for IBus-Table. This file is derived from
+###               SCIM Tables format, which is derived from GTK2 Input Method
+###               Cyrillic (Transliterated).
+###
+### This file must be encoded into UTF-8.
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = eede643c-a318-4efa-9328-5ad2f84226fb
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+SERIAL_NUMBER = 20090603
+
+ICON = maral.svg
+
+### The default name of this table
+NAME = Maral
+
+### The local names of this table 
+NAME.mn_MN = Марал
+
+### Supported languages of this table
+LANGUAGES = mn_MN
+
+### The author of this table
+AUTHOR = Ochirkhuyag.L <ochkoo@gmail.com>
+
+### Prompt string to be displayed in the status area.
+STATUS_PROMPT = Ө
+
+### The Keyboard Layout used by this table. Unset or set to "Unknown" to accept any kind of layouts.
+KEYBOARD_LAYOUT = US_Default
+
+### If true then the first candidate phrase
+### will be selected automatically during inputing.
+AUTO_SELECT = TRUE
+
+### If true then a multi wildcard will be appended
+### at the end of inputing string automatically.
+AUTO_WILDCARD = FALSE
+
+### If true then the result string will be committed to client automatically.
+### This should be used with AUTO_SELECT = TRUE.
+AUTO_COMMIT = TRUE
+
+### If true then the inputted string will be automatically splitted during inputing.
+AUTO_SPLIT = TRUE
+
+### If true then the phrases' frequencies will be adjusted dynamically.
+DYNAMIC_ADJUST = TRUE
+
+### If true then the preedit area will be filled up by the current candidate phrase automatically.
+AUTO_FILL = TRUE
+
+### If true then the lookup table will always be shown if there is any candidate phrase.
+### Otherwise the lookup table won't be shown unless the user requires it by moving the preedit caret left.
+ALWAYS_SHOW_LOOKUP = FALSE
+
+### Enable full width punctuation property
+USE_FULL_WIDTH_PUNCT = FALSE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = FALSE
+
+### Enable full width letter property
+USE_FULL_WIDTH_LETTER = FALSE
+
+### Use full width letter by default
+DEF_FULL_WIDTH_LETTER = FALSE
+
+### The maxmium length of a key.
+MAX_KEY_LENGTH = 2
+
+### Valid input chars.
+VALID_INPUT_CHARS = ABWGDE&VZIJKLMNOPQRSTUFHCYXabwgdevzijklmnopqrstufhcyx"'[]{}();:,.<>/?-_+$\|`~
+
+### Single wildcard char, can have multiple chars.
+###SINGLE_WILDCARD_CHAR = ?
+
+### Multi wildcard char.
+###MULTI_WILDCARD_CHAR = *
+
+### The key strokes to split inputted string.
+###SPLIT_KEYS = quoteright
+
+### The key strokes to commit the convert result to client.
+COMMIT_KEYS = space
+
+### The key strokes to forward the inputted string to client.
+FORWARD_KEYS = Return
+
+### The key strokes to select candidiate phrases.
+SELECT_KEYS = 1,2,3,4,5,6,7,8,9
+
+### The key strokes to page up the lookup table.
+PAGE_UP_KEYS = Page_Up
+
+### The key strokes to page down the lookup table.
+PAGE_DOWN_KEYS = Page_Down
+
+END_DEFINITION
+
+### Begin Table data.
+BEGIN_TABLE
+1	1	1000
+!	!	1000
+2	2	1000
+@	@	1000
+3	3	1000
+#	#	0
+4	4	1000
+$	₮	1000
+$	$	0
+5	5	1000
+%	%	1000
+6	6	1000
+^	^	1000
+7	7	1000
+&	&	1000
+8	8	1000
+*	*	1000	
+9	9	1000
+(	(	1000
+0	0	1000
+)	)	1000
+-	е	0
+_	Е	0
++	Щ	0
+A	Й	0
+B	М	0
+W	Ц	0
+G	А	0
+D	Б	0
+E	У	0
+V	С	0
+Z	Я	0
+I	Ш	0
+J	Р	0
+K	О	0
+L	Л	0
+M	Т	0
+N	И	0
+O	Ү	0
+P	З	0
+R	Ж	0
+S	Ы	0
+T	Э	0
+U	Г	0
+F	Ө	0
+H	Х	0
+C	Ё	0
+{	К	0
+}	Ъ	0
+Y	Н	0
+X	Ч	0
+Q	Ф	0
+<	Ь	0
+>	В	0
+:	Д	0
+"	П	0
+?	Ю	0
+a	й	0
+b	м	0
+w	ц	0
+g	а	0
+d	б	0
+e	у	0
+v	с	0
+z	я	0
+i	ш	0
+j	р	0
+k	о	0
+l	л	0
+m	т	0
+n	и	0
+o	ү	0
+p	з	0
+r	ж	0
+s	ы	0
+t	э	0
+u	г	0
+f	ө	0
+h	х	0
+c	ё	0
+[	к	0
+]	ъ	0
+y	н	0
+x	ч	0
+q	ф	0
+,	ь	0
+.	в	0
+;	д	0
+'	п	0
+/	ю	0
+\	.	0
+`	,	0
+~	"	6000
+~	'	5000
+~	-	4000
+~	+	3000
+~	_	2000
+~	~	1000
+(	(	4000
+(	[	3000
+(	{	2000
+(	<	1000
+)	)	4000
+)	]	3000
+)	}	2000
+)	>	1000
+|	?	5000
+|	:	4000
+|	;	3000
+|	\	2000
+|	/	1000
+END_TABLE
