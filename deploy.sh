@@ -1,3 +1,3 @@
 #!/bin/bash
 
-./compile.sh && pkill ibus-daemon && ./install.sh && ibus-daemon &
+./compile.sh && ./install.sh && ibus-daemon -r -d
